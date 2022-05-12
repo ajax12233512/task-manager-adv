@@ -4,9 +4,10 @@ import menuItems from './MenuItems'
 function Menu() {
   return (
     <div className='menu-main'>
+      <h2>Sections</h2>
         {menuItems.map(({name, cName, path}) => {
             return (
-                <div className='menu-item'>{name}</div>
+                <button className={cName}>{name}</button>
             )
         })}
     </div>

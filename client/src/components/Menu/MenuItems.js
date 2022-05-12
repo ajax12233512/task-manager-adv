@@ -1,23 +1,34 @@
+const cName = 'menu-item';
 const menuItems = [
     {
         name: 'Today',
         path: '/',
-        cName: 'menu-item'
+        cName
+    },
+    {
+        name: 'Calandar',
+        path: '/',
+        cName
     },
     {
         name: 'Projects',
         path: '/',
-        cName: 'menu-item'
+        cName
     },
     {
         name: 'Uncatgorized',
         path: '/',
-        cName: 'menu-item'
+        cName
     },
     {
         name: 'Tags',
         path: '/',
-        cName: 'menu-item'
+        cName
+    },
+    {
+        name: 'Notebook',
+        path: '/',
+        cName
     },
 ]
 
