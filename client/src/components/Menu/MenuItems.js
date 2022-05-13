@@ -1,9 +1,18 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+const caretStyle = {
+    marginRight: '5px',
+}
+const carets = [<FontAwesomeIcon style={caretStyle} icon={solid('caret-right')}/>, <FontAwesomeIcon icon={solid('caret-right')}/>]
+
+
 const cName = 'menu-item';
 const menuItems = [
     {
         name: 'Today',
         path: '/',
-        cName
+        cName,
+        carets
     },
     {
         name: 'Calandar',
@@ -13,17 +22,20 @@ const menuItems = [
     {
         name: 'Projects',
         path: '/',
-        cName
+        cName, 
+        carets
     },
     {
         name: 'Uncatgorized',
         path: '/',
-        cName
+        cName,
+        carets
     },
     {
         name: 'Tags',
         path: '/',
-        cName
+        cName,
+        carets
     },
     {
         name: 'Notebook',
