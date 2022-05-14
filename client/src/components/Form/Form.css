@@ -1,0 +1,21 @@
+#form{
+    border: 1px solid black;
+    padding: 3rem;
+}
+
+.form-title{
+    border-bottom: 1px solid black;
+}
+
+.form-group-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.form-group-item input{
+    width: 51%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
