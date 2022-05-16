@@ -1,5 +1,5 @@
 .menu-main {
-    position: absolute;
+    /* position: absolute; */
     border: solid 1px #000;
     min-width: 10%;    
     left: 10px;
@@ -21,3 +21,8 @@
     color: #fff;
 }
 
+.section-mobile-ctn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
