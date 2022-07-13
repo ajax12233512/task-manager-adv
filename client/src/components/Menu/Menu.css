@@ -1,10 +1,6 @@
 .menu-main {
     /* position: absolute; */
-    border: solid 1px #000;
-    min-width: 10%;    
-    left: 10px;
-    top: 10px;
-    bottom: 10px;
+
 }
 
 .menu-item{
@@ -24,5 +20,5 @@
 .section-mobile-ctn{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    
 }

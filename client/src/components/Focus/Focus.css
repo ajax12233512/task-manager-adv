@@ -1,12 +1,9 @@
-.main-ctn{
-    display: block;
-    margin-left: 18%;
-}
 
-@media screen and (max-width: 700px) {
+
+/* @media screen and (max-width: 700px) {
     .main-ctn{
         margin-left: 0;
         text-align: center;
     }
-}
+} */
     

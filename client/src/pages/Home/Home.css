@@ -3,12 +3,12 @@
 }
 
 .home-ctn{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 50px; */
 }
 
 @media screen and (max-width: 1033px) {
@@ -36,12 +36,6 @@
     .home-ctn {
     grid-template-rows: 1fr 1fr;
     }
-
-    /* Element | http://localhost:3000/ */
-
-
-
-
 }
 
 @media screen and (min-width: 1033px){
